@@ -1,0 +1,21 @@
+
+/**
+ * Taplytics logo.
+ */
+
+.logo[data-logo="Taplytics"] {
+  width: 5.870270569153642em;
+}
+
+.logo[data-logo="Taplytics"] > * {
+  background-image: url(images/logo.svg);
+  margin: .05em 0;
+}
+
+.logo[data-logo="Taplytics"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Taplytics"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
